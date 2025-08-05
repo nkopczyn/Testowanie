@@ -6,7 +6,7 @@ public class Person {
 
 
     public String getFirstName() {
-        System.out.println("Getting FirstName");
+        //System.out.println("Getting FirstName");
         return this.firstName;
     }
 
@@ -23,7 +23,8 @@ public class Person {
     }
 
     public String getInitials() {
-        System.out.println(this.firstName.charAt(0) + "." + this.lastName.charAt(0) + ".");
+        //System.out.println(this.firstName.charAt(0) + "." + this.lastName.charAt(0) + ".");
+        return "";
     }
 
 }
